@@ -1,0 +1,470 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+
+  background-image: linear-gradient(to bottom, #000, #84838d);
+
+  overflow: hidden;
+}
+
+/* Heading Primary */
+.heading__primary {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -20%);
+
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(#ccc, #fff, transparent);
+}
+/* End of Heading Primary */
+
+/* Sky */
+.section-01 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80vh;
+
+  overflow: hidden;
+}
+
+.moon {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 0 2px white, 0 0 3px white, 0 0 4px white, 0 0 5px white,
+    0 0 6px white;
+  border-radius: 50%;
+}
+/* End of Sky */
+
+/* Hosues */
+.section-02 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+}
+
+.city {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.house {
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+}
+
+.house-01 {
+  position: absolute;
+  top: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  width: 75%;
+  height: 50%;
+}
+
+.house-01::before {
+  content: '';
+  position: absolute;
+  top: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 50%;
+  background-color: #000;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.house-02 {
+  position: absolute;
+  top: -20.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 102%;
+  height: 21%;
+  background-color: #000;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.house-03 {
+  position: absolute;
+  top: -5.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 6%;
+  background-color: #000;
+}
+
+.house-03::before {
+  content: '';
+  position: absolute;
+  top: -90%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 90%;
+  background-color: #000;
+}
+
+.house-04 {
+  position: absolute;
+  top: -20%;
+  right: 0%;
+  width: 20%;
+  height: 30%;
+  background-color: #000;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.house-04::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 100%;
+  width: 100%;
+  height: 85%;
+  background-color: #000;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.house-04::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  right: 100%;
+  width: 100%;
+  height: 85%;
+  background-color: #000;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+.house-04::after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  right: 200%;
+  width: 100%;
+  height: 85%;
+  background-color: #000;
+  border-radius: 0.2rem 0.2rem 0 0;
+}
+
+.house-05 {
+  position: absolute;
+  top: -5.5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  height: 6%;
+  background-color: #000;
+}
+
+.house-06 {
+  position: absolute;
+  top: -9%;
+  right: 30%;
+  width: 10%;
+  height: 10%;
+  background-color: #000;
+}
+
+.house-06::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 60px;
+  border-radius: 60% 60% 30% 30%;
+  background-image: linear-gradient(to top, #333, #444, transparent);
+  filter: blur(4px);
+}
+
+.house-07 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.h1 {
+  left: 0px;
+  width: 80px;
+  height: 220px;
+}
+.h2 {
+  left: 80px;
+  width: 70px;
+  height: 290px;
+}
+.h3 {
+  left: 150px;
+  width: 90px;
+  height: 180px;
+}
+.h4 {
+  left: 240px;
+  width: 70px;
+  height: 260px;
+}
+.h5 {
+  left: 310px;
+  width: 100px;
+  height: 310px;
+}
+.h6 {
+  left: 410px;
+  width: 110px;
+  height: 210px;
+}
+.h7 {
+  left: 520px;
+  width: 80px;
+  height: 270px;
+}
+.h8 {
+  left: 600px;
+  width: 75px;
+  height: 240px;
+}
+.h9 {
+  left: 675px;
+  width: 120px;
+  height: 320px;
+}
+.h10 {
+  left: 795px;
+  width: 95px;
+  height: 200px;
+}
+.h11 {
+  left: 890px;
+  width: 60px;
+  height: 260px;
+}
+.h12 {
+  left: 950px;
+  width: 85px;
+  height: 280px;
+}
+.h13 {
+  left: 1035px;
+  width: 80px;
+  height: 220px;
+}
+.h14 {
+  left: 1115px;
+  width: 100px;
+  height: 290px;
+}
+.h15 {
+  left: 1215px;
+  width: 70px;
+  height: 250px;
+}
+.h16 {
+  left: 1285px;
+  width: 105px;
+  height: 310px;
+}
+.h17 {
+  left: 1390px;
+  width: 85px;
+  height: 200px;
+}
+.h18 {
+  left: 1475px;
+  width: 75px;
+  height: 270px;
+}
+.h19 {
+  left: 1550px;
+  width: 90px;
+  height: 240px;
+}
+.h20 {
+  left: 1640px;
+  width: 80px;
+  height: 320px;
+}
+.h21 {
+  left: 1720px;
+  width: 110px;
+  height: 280px;
+}
+.h22 {
+  left: 1830px;
+  width: 110px;
+  height: 380px;
+}
+
+/* window */
+.window {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 90;
+  width: 70%;
+  height: 10%;
+  background-color: #fdff00;
+  opacity: 85%;
+}
+/* End of window */
+/* End of Houses*/
+
+/* Batman */
+.batman {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: 230px;
+  height: 130px;
+  background-color: #fdff00;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  width: 212px;
+  height: 112px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.logo__part-01 {
+  position: absolute;
+  background-color: #fdff00;
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  left: 44px;
+  transform: rotate(-41deg);
+}
+
+.logo__part-02 {
+  position: absolute;
+  background-color: #fdff00;
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 67px;
+  right: 44px;
+  transform: rotate(41deg);
+}
+
+.logo__part-03 {
+  position: absolute;
+  background-color: #fdff00;
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  left: 68px;
+  transform: rotate(-15deg);
+}
+
+.logo__part-04 {
+  position: absolute;
+  background-color: #fdff00;
+  width: 33px;
+  height: 70px;
+  border-radius: 50%;
+  top: 73px;
+  right: 68px;
+  transform: rotate(15deg);
+}
+
+.logo__part-05 {
+  position: absolute;
+  width: 37px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fdff00;
+  top: 0;
+  left: 57px;
+}
+
+.logo__part-06 {
+  position: absolute;
+  width: 37px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fdff00;
+  top: 0;
+  right: 57px;
+}
+
+.logo__part-07 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fdff00;
+  top: 0;
+  left: 74px;
+}
+
+.logo__part-08 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fdff00;
+  top: 0;
+  right: 74px;
+}
+
+.logo__part-09 {
+  position: absolute;
+  top: 0;
+  left: 95px;
+  width: 11px;
+  border-bottom: 12px solid #fdff00;
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  transform: rotate(180deg);
+}
+
+.batman-light {
+  position: absolute;
+  top: 77.4px;
+  right: 681px;
+  transform: rotate(-35.2deg);
+  z-index: 100;
+  width: 178px;
+  height: 657px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background-image: linear-gradient(to top, #fdff00, #fdff00 20%, transparent);
+}
+/* End of Batman */
