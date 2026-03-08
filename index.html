@@ -1,9 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Batman Css Art</title>
+    <meta
+      name="description"
+      content="Batman CSS Art scene with city skyline and night sky, created using HTML5 and CSS3 and little JavaScript"
+    />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Batman CSS Art | Web Animations and Effects"
+    />
+    <meta
+      property="og:description"
+      content="Interactive Batman CSS art scene with city skyline and night sky, created using HTML5, CSS3, and JavaScript."
+    />
+    <meta property="og:type" content="website" />
+    <!-- End of Open Graph -->
+
+    <title>Batman Css Art | Web Animations and Effects</title>
     <link rel="stylesheet" href="./style.css" />
     <script defer src="./script.js"></script>
   </head>
@@ -13,13 +30,17 @@
     <!-- End of Heading Primary -->
 
     <!-- Sky -->
-    <section class="section-01" id="section-01">
+    <section
+      class="section-01"
+      id="section-01"
+      aria-label="Night city with Batman signal"
+    >
       <!-- Moon -->
-      <div class="moon"></div>
+      <div class="moon" role="img" aria-label="Full moon"></div>
       <!-- End of Moon -->
 
       <!-- Batman Logo -->
-      <div class="batman">
+      <div class="batman" role="img" aria-label="Batman logo in the sky">
         <div class="logo">
           <div class="logo__part-01"></div>
           <div class="logo__part-02"></div>
@@ -41,7 +62,7 @@
     <!-- End of Sky -->
 
     <!-- Houses -->
-    <section class="section-02">
+    <section class="section-02" aria-label="City skyline with buildings">
       <div class="city">
         <div class="house h1">
           <div class="house-04"></div>
